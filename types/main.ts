@@ -33,24 +33,24 @@ type education = {
 }
 
 type main = {
-    name: string,
-    titles: string[],
-    heroImage: string,
-    shortDesc: string,
-    techStackImages: string[],
+    name?: string,
+    titles?: string[],
+    heroImage?: string,
+    shortDesc?: string,
+    techStackImages?: string[],
 }
 
 type about = {
-    aboutImage: string,
-    aboutImageCaption: string,
-    title: string,
-    about: string,
-    resumeUrl: string,
-    callUrl: string
+    aboutImage?: string,
+    aboutImageCaption?: string,
+    title?: string,
+    about?: string,
+    resumeUrl?: string,
+    callUrl?: string
 }
 
 type social = {
-    name: string,
+    name?: string,
     icon: string,
     link: string
 }
