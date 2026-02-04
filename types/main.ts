@@ -45,7 +45,7 @@ type about = {
     aboutImageCaption: string,
     title: string,
     about: string,
-    resumeUr?: string,
+    resumeUrl: string,
     callUrl: string
 }
 
